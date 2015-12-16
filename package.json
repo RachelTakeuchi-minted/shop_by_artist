@@ -1,0 +1,37 @@
+{
+  "name": "shop_by_artist",
+  "version": "0.0.1",
+  "description": "Shop by Artist Prototype",
+  "main": "./src/main.jsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RachelTakeuchi-minted/shop_by_artist.git"
+  },
+  "author": "Rachel Takeuchi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minted/di_addressbook/issues"
+  },
+  "homepage": "https://github.com/minted/shop_by_artist",
+  "dependencies": {
+    "classnames": "^1.2.0",
+    "flux": "^2.0.1",
+    "mimelib": "^0.2.19",
+    "minted_ui": "git+ssh://git@github.com:minted/minted_ui.git#v0.28.1",
+    "object-assign": "^2.0.0",
+    "radium": "^0.13.2",
+    "react": "^0.13.3",
+    "superagent": "^1.1.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "eslint-config-minted": "git+ssh://git@github.com/minted/eslint-config-minted.git#v0.3.1",
+    "frontend-build-system": "git+ssh://git@github.com/minted/frontend-build-system.git#v0.6.0",
+    "gulp": "^3.9.0",
+    "proxyquire": "^1.4.0",
+    "sinon": "^1.13.0"
+  }
+}
